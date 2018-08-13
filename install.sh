@@ -5,14 +5,16 @@ curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
 yum install -y nodejs
 
 # Google Chrome
-cat /etc/yum.repos.d/google-chrome.repo
-[google-chrome]
-name=google-chrome
-baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
-enabled=1
-gpgcheck=1
-gpgkey=https://dl.google.com/linux/linux_signing_key.pub
-yum install -y google-chrome-stable
+#cat /etc/yum.repos.d/google-chrome.repo
+#[google-chrome]
+#name=google-chrome
+#baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+#enabled=1
+#gpgcheck=1
+#gpgkey=https://dl.google.com/linux/linux_signing_key.pub
+#yum install -y google-chrome-stable
+URL=https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+yum install -y ${URL}
 
 # Brackets
 #yum install -y yum-plugin-copr
