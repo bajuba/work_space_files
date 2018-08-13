@@ -36,6 +36,22 @@ rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E032808
 sh -c 'curl https://download.mono-project.com/repo/centos7-vs.repo | tee /etc/yum.repos.d/mono-centos7-vs.repo'
 yum install -y monodevelop
 
+# Anaconda Python
+# Go to home directory
+#cd ~
+
+# You can change what anaconda version you want at 
+# https://repo.continuum.io/archive/
+#wget -c https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+#bash Anaconda3-5.2.0-Linux-x86_64.sh -b -p ~/anaconda
+#rm Anaconda3-5.2.0-Linux-x86_64.sh
+#echo 'export PATH="/root/anaconda/bin:$PATH"' >> /root/.bashrc 
+
+# Refresh basically
+#source .bashrc
+
+#conda update conda
+
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
 # LAMP for Amazon Linux 2
 amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
