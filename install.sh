@@ -37,10 +37,10 @@ yum install -y monodevelop
 #wget -c https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 #bash Anaconda3-5.2.0-Linux-x86_64.sh -b -p ~/anaconda
 #rm Anaconda3-5.2.0-Linux-x86_64.sh
-#echo 'export PATH="/root/anaconda/bin:$PATH"' >> /root/.bashrc 
+#echo 'export PATH="/root/anaconda/bin:$PATH"' >> ~/.bashrc 
 
 # Refresh basically
-#source .bashrc
+#source ~/.bashrc
 
 #conda update conda
 
