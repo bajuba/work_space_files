@@ -37,20 +37,19 @@ sh -c 'curl https://download.mono-project.com/repo/centos7-vs.repo | tee /etc/yu
 yum install -y monodevelop
 
 # Anaconda Python
-# Go to /home/user/ directory
-cd ~
+# Go to Download directory
+#cd ~/Downloads
 
 # You can change what anaconda version you want at 
 # https://repo.continuum.io/archive/
-wget -c https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
-bash Anaconda3-5.2.0-Linux-x86_64.sh -b -p ~/anaconda
-rm Anaconda3-5.2.0-Linux-x86_64.sh
-echo 'export PATH="/root/anaconda/bin:$PATH"' >> ~/.bashrc 
+#wget -c https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+#bash Anaconda3-5.2.0-Linux-x86_64.sh
+#echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.bashrc
 
 # Refresh basically
-source ~/.bashrc
+#source ~/.bashrc
 
-conda update conda
+#conda update conda
 
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
 # LAMP for Amazon Linux 2
