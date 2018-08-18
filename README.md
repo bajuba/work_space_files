@@ -11,6 +11,15 @@ sudo ./install.sh
 
 
 
+Run anaconda install script without root privileges...
+
+./anaconda_install.sh
+
+
+
+
+
 INSTALL OH-MY-ZSH: cd into home/ directory, copy paste this command, and enter...
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo yum install zsh
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
