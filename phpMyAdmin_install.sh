@@ -1,4 +1,5 @@
 #!/bin/bash
+
 yum install php-mbstring -y
 systemctl restart httpd
 systemctl restart php-fpm
